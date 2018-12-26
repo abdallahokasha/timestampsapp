@@ -5,14 +5,30 @@ import Grid from '@material-ui/core/Grid';
 class Home extends Component {
     constructor(props) {
         super();
-
+        // this.increment = this.increment.bind(this);
         this.state = {
             counter: 0,
         }
     }
+    componentDidMount(){
+        // this.updateCounter();
+    }
+    updateCounter() {
+        var counter = this.state.counter;
+        var increment =  () => {
+            if (counter === 100) clearInterval(this);
+            else {
+                counter++;
+                this.setState({ counter });
+            }
+        };
+        setInterval(increment, 40000);
+        increment();
+    }
     render() {
         return (
             <div>
+                {/* {this.updateCounter} */}
                 <Grid container direction="column">
                     <Grid item xs={12}>
                     </Grid>
