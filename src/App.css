@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+#root {
+  background-color: #f0f0f0;
+  height: -webkit-fill-available;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -29,4 +34,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+#appTitle {
+float: left;
+margin-left: 8px;
+font-style: oblique;
+font-family: sans-serif;
+}
+
+#homeDiv {
+ 
+}
+
+#counterText {
+  margin: 0px;
+  font-size: 180px;
+  color: cornflowerblue;
 }
