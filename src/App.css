@@ -39,7 +39,7 @@
 float: left;
 margin-left: 8px;
 font-style: oblique;
-font-family: sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 #homeDiv {
@@ -50,4 +50,10 @@ font-family: sans-serif;
   margin: 0px;
   font-size: 180px;
   color: cornflowerblue;
+}
+
+#listLink {
+  float: right;
+  margin-right: 40px;
+  margin-top: 30px;
 }
