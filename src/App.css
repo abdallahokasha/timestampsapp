@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f0f0f0;
 }
 
 #root {
@@ -56,4 +57,17 @@ font-family: Arial, Helvetica, sans-serif;
   float: right;
   margin-right: 40px;
   margin-top: 30px;
+}
+
+ul {
+  background: #ccc;
+  padding: 1px;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  background: #fff;
+  margin: 1px;
+  padding: 8px;
 }

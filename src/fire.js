@@ -8,5 +8,18 @@ import firebase from 'firebase'
     storageBucket: "timestamps-4a186.appspot.com",
     messagingSenderId: "382984156387"
   };
+  
 var fire = firebase.initializeApp(config);
+// fire.firestore().enablePersistence()
+//   .catch(function(err) {
+//       if (err.code == 'failed-precondition') {
+//           // Multiple tabs open, persistence can only be enabled
+//           // in one tab at a a time.
+//           // ...
+//       } else if (err.code == 'unimplemented') {
+//           // The current browser does not support all of the
+//           // features required to enable persistence
+//           // ...
+//       }
+// });
 export default fire;
